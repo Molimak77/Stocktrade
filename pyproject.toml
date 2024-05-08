@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "stocktrade"
+version = "0.0.1"
+description = ""
+authors = ["Moliere <moliere.nguile@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^8.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
